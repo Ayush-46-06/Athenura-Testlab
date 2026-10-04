@@ -1,0 +1,6 @@
+{
+  "name":"api-forge-platform",
+  "private":true,
+  "scripts":{"install:all":"npm --prefix backen install && npm --prefix frontend install","dev":"concurrently \"npm --prefix backen run dev\" \"npm --prefix frontend run dev\""},
+  "devDependencies":{"concurrently":"^9.2.1"}
+}
